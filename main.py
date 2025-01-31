@@ -1,10 +1,12 @@
 
+book = input("What is the path of the book you want to analyze?\n")
+
 def main():
-    with open("books/frankenstein.txt") as f:
+    with open(book) as f:
         file_contents = f.read()
 
     print("\n--- Begin report ---\n")
-    print(f"Word count: {count_words(file_contents)}")
+    print(f"Word count: {count_words(file_contents)}\n")
     count_characters(file_contents)
     print("\n--- End report ---")
 
