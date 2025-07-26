@@ -1,2 +1,3 @@
 # bookbot
-Python CLI app to analyze text from books. Part of the boot.dev backend developer course.
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
